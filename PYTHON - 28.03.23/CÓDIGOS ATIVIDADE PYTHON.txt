@@ -1,0 +1,70 @@
+# -> LINK DO GOOGLE COLAB: https://colab.research.google.com/drive/14jHih6DjjMKoPMqJ9DXGGZ8gjltRc94q?usp=sharing
+
+
+# ATIVIDADE _1:
+
+
+inicio = 0
+fim = 100
+for numero in range(inicio, fim):
+    if numero % 5 == 0:
+        print(numero) 
+
+
+
+# ATIVIDADE_2:
+
+
+inicio = 100
+fim = 501
+for numero in range(inicio, fim):
+    if numero % 2 == 0:
+        print(numero)
+    if numero % 5 == 0:
+        print(numero)
+    if numero % 7 == 0:
+        print(numero)
+
+
+
+# ATIVIDADE_3:
+
+
+inicio = 0
+fim = 1001
+divisor = 3
+for numero in range(inicio, fim):
+    if numero % divisor == 0:
+        print(numero)
+
+
+
+# ATIVIDADE_4:
+
+
+nome = 'João da Silva'
+cidade = 'São Paulo'
+cpf = '123.456.789-00'
+
+print(nome.upper())
+print(cidade.upper())
+print(nome.lower())
+print(cidade.lower())
+print(nome.find('ã'))
+print(len(nome))
+print(len(cidade))
+print(len(cpf))
+new_cpf = (cpf.replace('.', ''))
+print(new_cpf.replace('-',''))
+
+
+
+# ATIVIDADE_5:
+
+
+numero ='127957'
+soma = 0
+for num in numero:
+    soma = soma + int(num)
+print(soma)
+          
